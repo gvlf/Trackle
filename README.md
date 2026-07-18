@@ -1,8 +1,5 @@
-<<<<<<< HEAD
 # Trackle
-Music guessing game
 =======
-# MusicQuizly
 
 A multiplayer music quiz game where players import Spotify playlists and guess songs in real-time.
 
@@ -17,7 +14,7 @@ A multiplayer music quiz game where players import Spotify playlists and guess s
 ## Setup
 
 1. Create a Spotify App at https://developer.spotify.com/dashboard
-2. Add `http://localhost:3001/auth/callback` to your app's redirect URIs
+2. Add `http://<local-ip-or-domain-for-the-website>:3001/auth/callback` to your app's redirect URIs
 3. Copy `.env.example` to `.env` and fill in your Spotify credentials:
 
 ```bash
@@ -37,7 +34,7 @@ npm run install:all
 npm run dev
 ```
 
-6. Open http://localhost:5173
+6. Open http://<local-ip-or-domain-for-the-website>:5173
 
 ## How to Play
 
@@ -60,7 +57,7 @@ npm run dev
 ```
 SPOTIFY_CLIENT_ID=your_client_id
 SPOTIFY_CLIENT_SECRET=your_client_secret
-SPOTIFY_REDIRECT_URI=http://localhost:3001/auth/callback
+SPOTIFY_REDIRECT_URI=http://<local-ip-or-domain-for-the-website>:3001/auth/callback
 PORT=3001
 CLIENT_URL=http://localhost:5173
 ```
