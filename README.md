@@ -34,7 +34,7 @@ npm run install:all
 npm run dev
 ```
 
-6. Open http://<local-ip-or-domain-for-the-website>:5173
+6. Open ```http://<local-ip-or-domain-for-the-website>:5173```
 
 ## How to Play
 
